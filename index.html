@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Som "Di 'Minas"</title>
+</head>
+
+<body>
+    <header class="titulo-da-pagina">
+        <h1>Músicos Mineiros</h1>
+    </header>
+
+    <main class="pesquisa" id="pesquisa">
+        <input type="text" id="searchInput" placeholder="Digite o nome do Músico">
+        <button onclick="pesquisar()" type="button">Buscar</button>
+    </main>
+
+    <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+
+    <footer>
+        <p>2024 - Músicos Mineiros. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: pierre@musicos.com.br</p>
+    </footer>
+
+    <div id="searchResults"></div>
+    <script src="./dados.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

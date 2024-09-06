@@ -1,0 +1,136 @@
+/* Configurações Universáis */
+
+body {
+    font-family: "Fraunces";
+    background-image: url("https://miro.medium.com/v2/resize:fit:6000/1*PxYr9W1OLDOOo1v9wCDIKQ.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Configurações do Título */
+
+.titulo-da-pagina {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.titulo-da-pagina h1 {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+
+}
+
+/* Configurações da Barra de Pesquisa*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa {
+    margin-top: 10px;
+}
+
+.pesquisa input {
+    width: 35vw;
+    border: none;
+    padding: 12px;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* Configurações dos Botões */
+
+.pesquisa button {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #BF6956;
+    color: #F5F7F8;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.pesquisa button:hover {
+    color: #BF6956;
+    background-color: #F5F7F8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    font-size: 8px;
+    background-color: #592d1de8;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    position: fixed;
+}
+
+/* Responsiveness for smaller screens (optional) */
+
+@media only screen and (max-width: 768px) {
+    .titulo-da-pagina h1 {
+        font-size: 1.8em;
+    }
+
+    .pesquisa input {
+        width: 70vw;
+    }
+}
+
+/* Resultados das pesquisas */
+
+.resultados-pesquisa{
+    width: 60rem; 
+    height: 36vh;
+    overflow-y: auto; 
+    margin-top: 1rem; 
+    padding: 1rem;
+    border-radius: 0.6rem; 
+}
+.item-resultado {
+    background: #FFFFFF; 
+    border-radius: 0.6rem; 
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; 
+    color: #222831; 
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; 
+    color: #30475E; 
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; 
+}
+.descricao-meta{
+    color: #45474B;
+    margin: 0.5rem 0;
+}
