@@ -102,8 +102,9 @@ footer {
     width: 60rem; 
     height: 36vh;
     overflow-y: auto; 
-    margin-top: 1rem; 
+    margin-top: 2px; 
     padding: 1rem;
+    text-align: center;
     border-radius: 0.6rem; 
 }
 .item-resultado {
